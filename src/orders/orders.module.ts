@@ -17,7 +17,6 @@ import { pubSubProvider } from '../common/pubsub/pubsub.provider';
     OrdersService,
     OrdersResolver,
     pubSubProvider,
-    // نسجل PubSub كـ provider عشان يكون injectable
   ],
   exports: [OrdersService, pubSubProvider],
 })
